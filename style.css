@@ -244,15 +244,14 @@ header {
 
 ::-webkit-scrollbar {
     width: 15px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     /* background: gray; */
     border-radius: 5px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: rgb(88, 111, 105);
     border-radius: 10px;
-  }
-  
+}
