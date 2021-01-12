@@ -5,20 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
-    <header>
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caseyjenkins92@gmail.com">Email</a>
+    <header class="aboutHeader">
+        <div>
+            <a href="index.html" class="aboutNav">Home</a>
+            <a href="portfolio.html" class="aboutNav">Portfolio</a>
+        </div>
+
+        <p class="name">Casey Jenkins</p>
+
+        <div class="headerIcons">
+            <a href="https://www.linkedin.com/in/caseykins/" target="_blank" class="navIcons"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/caseykins" target="_blank" class="navIcons"><i class="fab fa-github fa-2x"></i></a>
+            <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caseyjenkins92@gmail.com" class="navIcons"><i class="fas fa-paper-plane fa-2x"></i></a>
+            <a href="https://docs.google.com/document/d/1w2E4wZBL76sbWyQk5pT5-F4V5eEdW_B4Wq5_VnQ-nH4/edit?usp=sharing" target="_blank" class="navIcons"><i class="far fa-file-pdf fa-2x"></i></a>
+            <a href="https://twitter.com/Caseykins__" target="_blank" class="navIcons"><i class="fab fa-twitter-square fa-2x"></i></a>
+        </div>  
     </header>
 
     <div class="bioContainer">
-        <img class="profile" src="https://i.imgur.com/6YwsP8c.jpg?1"/>
+        <!-- <img class="profile" src="https://i.imgur.com/6YwsP8c.jpg?1"/> -->
         <div class="blurb">
-            <p>I am a full-stack software developer that enjoys solving problems, creating systems, increasing efficiency, and working in front-end design. With years of experience in bio-tech and electrical work, I possess strong problem solving skills, acute attention to detail, and determination to get the job done well. I enjoy troubleshooting and seeing projects from start to finish, never settling to do less than my best. My goal is to create intuitive and relevant apps that enrich the users’ experience.</p>
+            <p class="about">I am a full-stack software developer that enjoys solving problems, creating systems, increasing efficiency, and working in front-end design. With years of experience in bio-tech and electrical work, I possess strong problem solving skills, acute attention to detail, and determination to get the job done well. I enjoy troubleshooting and seeing projects from start to finish, never settling to do less than my best. My goal is to create intuitive and relevant apps that enrich the users’ experience.</p>
 
-            <p>Experienced in HTML, CSS, JavaScript, React, Express, EJS, Node.js, Sequelize, PostgreSQL, SQL, Sass, Git, and Python</p>
+            <p>Experienced in: </p>
+            <div class="skills">
+                <div class="skill-card">
+                    <i class="fab fa-html5 fa-6x about-i"></i>
+                    <p class='skill'>HTML5</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square fa-6x about-i"></i>
+                    <p class='skill'>Javascript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt fa-6x about-i"></i>
+                    <p class='skill'>CSS3</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react fa-6x about-i"></i>
+                    <p class='skill'>React</p>
+                </div>
+                <div class="skill-card">
+                    <image id="express" src="expressjs-icon.svg"></image>
+                    <p class='skill'>Express</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python fa-6x about-i"></i>
+                    <p class='skill'>Python</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js fa-6x about-i"></i>
+                    <p class='skill'>Node.js</p>
+                </div>
+                <div class="skill-card">
+                    <image src="sequelize.png" id="sequelize"></image>
+                    <p class='skill'>Sequelize</p>
+                </div>
+                <div class="skill-card">
+                    <span class="iconify" id="ejs" data-icon="file-icons:ejs" data-inline="false"></span>
+                    <p class='skill'>EJS</p>
+                </div>
+                <div class="skill-card">
+                    <i id="git" class="fab fa-git-alt fa-6x about-i"></i>
+                    <p class='skill'>Git</p>
+                </div>
+                <div class="skill-card">
+                    <image src="sql.png" id="sql"></image>
+                    <p class='skill'>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-sass fa-6x about-i"></i>
+                    <p class='skill'>Sass</p>
+                </div>
+            </div>
         </div>
     </div>
     
