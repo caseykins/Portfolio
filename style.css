@@ -74,7 +74,7 @@ header {
 
 .profile {
     /* width: 300px; */
-    /* height: 50vh; */
+    /* height: 65vh; */
     width: 30vw;
     border: 3px solid rgb(88, 111, 106);
     border-radius: 50%;
@@ -85,6 +85,7 @@ header {
     color: black;
     margin: 2px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .icons:hover {
