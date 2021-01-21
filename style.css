@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Xanh Mono', monospace;
 }
 
 a {
@@ -139,6 +140,12 @@ header {
     font-family: 'Xanh Mono', monospace;
 }
 
+.skillCard {
+    margin: 5px;
+    width: 15vw;
+    /* border: 1px solid white; */
+}
+
 #sequelize {
     height: 85px;
     margin-bottom: 10px;
@@ -146,20 +153,31 @@ header {
 }
 
 #express {
-    height: 85px;
+    height: 70px;
     filter: brightness(0) invert(1);
     margin-bottom: 6.75px;
 }
 
+/* #gitCard {
+    border: 1px solid white;
+} */
+
 #git {
     margin-bottom: 5px;
+    /* padding-left: 5px; */
 }
+
+/* #sqlCard {
+    margin-left: 10px;
+    border: 1px solid white;
+} */
 
 #sql {
     height: 84px;
     filter: brightness(0) invert(1);
     padding-top: 7px;
     margin-bottom: 4px;
+    /* margin-left: 5px; */
 }
 
 .iconify { 
