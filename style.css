@@ -143,14 +143,14 @@ header {
 .skills {
     display: flex; 
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     font-family: 'Xanh Mono', monospace;
     width: 100%;
 }
 
 .skillCard {
     margin: 5px;
-    width: 15vw;
+    width: 10vw;
     /* border: 1px solid white; */
 }
 
