@@ -275,3 +275,19 @@ header {
     background: rgb(88, 111, 105);
     border-radius: 10px;
 }
+
+/* Resume */
+
+.resName {
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    overflow-y: hidden;
+}
+
+iframe {
+    width: 66vw;
+    height: 85vh;
+}
